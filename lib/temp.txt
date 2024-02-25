@@ -1,0 +1,51 @@
+Container(
+                      decoration: BoxDecoration(
+                        boxShadow: const [
+                          BoxShadow(
+                              color: Color.fromARGB(255, 234, 212, 251),
+                              blurRadius: 15.0,
+                              offset: Offset(0, 4))
+                        ],
+                        color: const Color.fromARGB(255, 255, 255, 255),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      height: 150,
+                      child: const Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: [
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  '1.0Kg',
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.w900,
+                                      color: Color.fromARGB(255, 189, 108, 255),
+                                      letterSpacing: -1),
+                                ),
+                                Text(
+                                  'Plastic Collected',
+                                  style: TextStyle(fontSize: 15),
+                                )
+                              ],
+                            ),
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  '01/12/24',
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.w900,
+                                      color: Color.fromARGB(255, 189, 108, 255),
+                                      letterSpacing: -1),
+                                ),
+                                Text(
+                                  'Next collection date',
+                                  style: TextStyle(fontSize: 15),
+                                )
+                              ],
+                            )
+                          ]),
+                    ),
